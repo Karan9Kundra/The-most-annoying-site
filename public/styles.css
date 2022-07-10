@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body {
+    background-color: orange;
+    min-height: 100vh;
+    overflow: hidden; 
+    z-index: 10;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    user-select: none;
+    z-index: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
+
+.cursor {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    z-index: 1000000000000000000000000000000000000000000000000000000000000000;
+    user-select: none;
+}
+
+span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: bisque;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+} 
+
+.shake {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    display: inline-block;
+  }
+  
+  @keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+/* #numero {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#un, #deux, #trois, #quatre, #cinq, #six, #sept, #huit, #neuf, #dix {
+    background-color: aqua;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px;
+}
+
+#un:hover, #deux:hover, #trois:hover, #quatre:hover, #cinq:hover, #six:hover, #sept:hover, #huit:hover, #neuf:hover, #dix:hover {
+    background-color: aquamarine;
+    transition: 0.3s;
+}
+
+#margins {
+    height: 20px;
+} */
