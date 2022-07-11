@@ -1,7 +1,6 @@
 {
   "name": "fol1",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "devDependencies": {},
   "scripts": {
@@ -13,10 +12,19 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "lodash": "^4.17.21"
+    "express": "^4.18.1"
   },
   "engines": {
     "node": "^17.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karan9Kundra/The-most-annoying-site.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Karan9Kundra/The-most-annoying-site/issues"
+  },
+  "homepage": "https://github.com/Karan9Kundra/The-most-annoying-site#readme",
+  "description": ""
 }
